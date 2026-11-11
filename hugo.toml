@@ -1,0 +1,4 @@
+baseURL = 'https://yeababate.github.io/portfolio/'
+locale = 'en-US'
+title = 'Yeabsira'
+disableKinds = ['taxonomy', 'term', 'RSS']

@@ -1,0 +1,7 @@
+{{ define "main" }}
+<article>
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.technologies }}<p>Built with: {{ delimit . ", " }}</p>{{ end }}
+  {{ .Content }}
+</article>
+{{ end }}
